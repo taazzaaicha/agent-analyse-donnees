@@ -14,8 +14,7 @@ from outils import (
     tableau_de_bord,
 )
 
-MODELE = "gemini-3.8-flash"
-
+MODELE = "gemini-3.5-flash"
 
 def obtenir_cle():
     """Lit la clé Gemini : variable d'environnement en local, Secrets en ligne."""
